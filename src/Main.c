@@ -11,8 +11,8 @@ void Start(){
 
 float TimeElapsed(){
     clock_t tp2 = clock();
-	float w->ElapsedTime = (float)(tp2-tp1)/CLOCKS_PER_SEC;
-    return w->ElapsedTime;
+	float ElapsedTime = (float)(tp2-tp1)/CLOCKS_PER_SEC;
+    return ElapsedTime;
 }
 
 int sqrtInt32(long long a){
